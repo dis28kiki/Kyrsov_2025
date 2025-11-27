@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'form_vxodfHqQDu.ui'
+## Form generated from reading UI file 'form_vxodpEkiYT.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.9.2
+## Created by: Qt User Interface Compiler version 6.10.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -37,7 +37,7 @@ class Form_vxod(object):
 "color: rgb(111, 0, 0);")
         self.label_2 = QLabel(self.centralwidget)
         self.label_2.setObjectName(u"label_2")
-        self.label_2.setGeometry(QRect(130, 170, 144, 16))
+        self.label_2.setGeometry(QRect(110, 170, 191, 20))
         self.label_2.setStyleSheet(u"\n"
 "font: 700 10pt \"Small Fonts\";\n"
 "color: rgb(111, 0, 0);")
@@ -49,7 +49,7 @@ class Form_vxod(object):
 "color: rgb(111, 0, 0);")
         self.label = QLabel(self.centralwidget)
         self.label.setObjectName(u"label")
-        self.label.setGeometry(QRect(450, 60, 262, 16))
+        self.label.setGeometry(QRect(430, 20, 321, 20))
         self.label.setStyleSheet(u"\n"
 "font: 700 10pt \"Small Fonts\";\n"
 "color: rgb(111, 0, 0);")
@@ -67,7 +67,7 @@ class Form_vxod(object):
 "color: rgb(111, 0, 0);")
         self.label_3 = QLabel(self.centralwidget)
         self.label_3.setObjectName(u"label_3")
-        self.label_3.setGeometry(QRect(410, 90, 331, 421))
+        self.label_3.setGeometry(QRect(410, 60, 331, 421))
         self.label_3.setStyleSheet(u"\n"
 "font: 700 10pt \"Small Fonts\";\n"
 "color: rgb(111, 0, 0);")
@@ -97,30 +97,20 @@ class Form_vxod(object):
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"\u041a\u0430\u043b\u0435\u043d\u0434\u0430\u0440\u044c \u0441\u0440\u043e\u043a\u043e\u0432 \u0438\u0441\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f \n"
 "\n"
 "\n"
-"\n"
 "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0434\u043b\u044f \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0437\u0430\u0434\u0430\u0447\u0430\u043c\u0438 \u0438 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f \u0434\u0435\u0434\u043b\u0430\u0439\u043d\u043e\u0432 \u0432 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438, \u0441 \u0440\u0430\u0437\u0434\u0435\u043b\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0430\u0432 \u0434\u043e\u0441\u0442\u0443\u043f\u0430 \u043c\u0435\u0436\u0434\u0443 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u0430\u043c\u0438 \u0438 \u043e\u0431\u044b\u0447\u043d\u044b\u043c\u0438 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0430\u043c\u0438.\n"
 "\n"
-"\n"
 "\u0410\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\n"
-""
-                        "\n"
 "\n"
-"\u041f\u043e\u043b\u043d\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f \u043a\u043e \u0432\u0441\u0435\u043c \u0444\u0443\u043d\u043a\u0446\u0438\u044f\u043c\n"
-"\n"
+"\u041f"
+                        "\u043e\u043b\u043d\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f \u043a\u043e \u0432\u0441\u0435\u043c \u0444\u0443\u043d\u043a\u0446\u0438\u044f\u043c\n"
 "\u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435/\u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435/\u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\n"
-"\n"
 "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 \u0432\u0441\u0435\u0445 \u043e\u0442\u0434\u0435\u043b\u043e\u0432 \u0438 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u0432\n"
-"\n"
 "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0441\u0440\u043e\u043a\u0430\u043c\u0438 \u0438\u0441\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f\n"
 "\n"
 "\n"
-"\n"
 "\u0420\u0430\u0431\u043e\u0442\u043d\u0438\u043a\n"
-"\n"
-"\n"
 "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 \u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u043d\u044b\u0445 \u0437\u0430\u0434\u0430\u0447\n"
-"\n"
-"\u0424\u0438\u043b\u044c\u0442\u0440\u0430"
-                        "\u0446\u0438\u044f \u043f\u043e \u043e\u0442\u0434\u0435\u043b\u0430\u043c \u0438 \u0434\u0430\u0442\u0430\u043c", None))
+"\u0424\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u044f \u043f\u043e \u043e\u0442\u0434"
+                        "\u0435\u043b\u0430\u043c \u0438 \u0434\u0430\u0442\u0430\u043c", None))
     # retranslateUi
 

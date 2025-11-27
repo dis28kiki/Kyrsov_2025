@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>369</width>
+    <height>427</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавление</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(183, 217, 156);
+color: rgb(109, 29, 29);
+border-color: 2px rgb(114, 165, 100);</string>
+  </property>
+  <widget class="QDateEdit" name="dateEdit_add">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(225, 255, 190);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(125, 7, 23);
+
+</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="add_task_descrip">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>331</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(209, 248, 178);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOn</enum>
+   </property>
+   <property name="placeholderText">
+    <string>Введите задания и требования...</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="joi_otdel_for_admin_add">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(234, 245, 211);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Выберите отдел...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit_save">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>370</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(206, 255, 193);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Отмена</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save_add">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>370</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(206, 255, 193);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="add_task_title">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(209, 248, 178);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOn</enum>
+   </property>
+   <property name="placeholderText">
+    <string>Введите название задания...</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="joi_sotrud_for_admin_add">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(234, 245, 211);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Выберите сотрудника...</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

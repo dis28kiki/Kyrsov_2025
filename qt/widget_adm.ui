@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>577</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Календарь сроков - управление проектами</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(183, 217, 156);
+color: rgb(109, 29, 29);
+border-color: 2px rgb(114, 165, 100);</string>
+  </property>
+  <widget class="QCalendarWidget" name="calendarWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>411</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(225, 255, 190);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(125, 7, 23);
+
+</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="text_vv">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>30</y>
+     <width>321</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Small Fonts</family>
+     <pointsize>10</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LayoutDirection::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(209, 248, 178);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOn</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="joi_otdel_for_admin">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>390</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(234, 245, 211);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Выберите отдел...</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="avatar">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>500</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(209, 248, 178);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>АВА</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="doljnost">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>500</y>
+     <width>261</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(209, 248, 178);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Должность</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>530</y>
+     <width>261</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(209, 248, 178);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Имя Фамилия</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit_avtoriz">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>510</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(206, 255, 193);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Выйти</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_deadlines">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>510</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(206, 255, 193);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Добавить </string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delete_deadlines">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>510</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(206, 255, 193);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Удалить</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btm_izmen_dead">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>510</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(206, 255, 193);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Изменить</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="joi_sotr_for_admin">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>440</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(234, 245, 211);
+font: 700 10pt &quot;Small Fonts&quot;;
+color: rgb(111, 0, 0);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Выберите сотрудника...</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

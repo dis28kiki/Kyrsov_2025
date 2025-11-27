@@ -32,5 +32,5 @@
     ```
 4.  Запустите приложение:
     ```bash
-    python main.py
+    python deadline.py
     ```

@@ -4,6 +4,8 @@
 
 ![Скриншот интерфейса](https://i.pinimg.com/736x/80/cf/e2/80cfe2058d640abfd55cf8c1dfdcca3c.jpg) 
 
+![Скриншот интерфейса](https://i.pinimg.com/736x/d9/01/60/d90160a328e168dd5ebaba7fc428be37.jpg) 
+
 
 ## Функциональность
 
